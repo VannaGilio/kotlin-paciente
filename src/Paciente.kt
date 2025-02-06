@@ -43,7 +43,7 @@ class Paciente {
         println("PESO: $peso")
         println("ALTURA: $altura")
         println("IMC: ${calcularImc()}")
-        println("CLASSIFICAÇÃO:")
+        println("CLASSIFICAÇÃO: ${classificarImc()}")
         println("------------------------------")
     }
 }
